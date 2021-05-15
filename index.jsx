@@ -1,8 +1,5 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import { Component } from "./Component"
+import { ExampleChart } from "./ExampleChart";
 
-ReactDOM.render(
-  <Component title="Hello World!"/>,
-  document.getElementById('root')
-);
+ReactDOM.render(<ExampleChart />, document.getElementById("root"));

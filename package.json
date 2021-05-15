@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "esbuild index.jsx --bundle --sourcemap --outfile=public/app.js",
+    "build": "esbuild index.jsx --bundle --minify --sourcemap --outfile=public/app.js",
     "start": "esbuild index.jsx --servedir=public --outdir=public --bundle"
   },
   "author": "",
@@ -11,6 +11,7 @@
   "dependencies": {
     "esbuild": "^0.11.22",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "recharts": "^2.0.9"
   }
 }
